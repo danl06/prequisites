@@ -15,9 +15,9 @@
     - For Linux / Mac, you need to change `%cd%` with `$pwd` or `$PWD`
     
     Note : for Windows, if Docker doesn't work, some tips :
-    - Free memory in your laptop, if you have only 8gb of ram, make sure to close or unused apps
-    - Go to Docker settings and reduce cpu and Ram and restart
-    - you may need to activate virtualization in the Bios (if not activated):
+    - Free memory in your laptop, if you have only 8 gb of ram, make sure to close unused apps and navigator tabs
+    - Go to Docker settings and Reduce cpu and Ram and restart docker
+    - You may need to activate virtualization in the Bios (if not activated):
         - Check this url https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968
 
     - Make sure Labelstudio app is accessible http://localhost:9999 (check screen below)
