@@ -44,8 +44,16 @@
 
     - You need to create using your email `3 different accounts` per Team (1 acount / email) from this [LINK](https://ngrok.com/)
         - Validate your Ngrok verification by email
-        - Download Ngrok depending on your OS, and add it to the home Repo
-
+        - Download Ngrok from your account depending on your OS, and add it to the home Repo `prequisites/`
+        - Copy Ngrok Token and add it to `ngrok_LS.yml`
+    - To test it in Labelstudio app, run :
+    ```
+    cd path_to_prequisites/
+    ngrok start --config=ngrok_LS.yml labelstudio
+    ```
+    or `./ngrok start` if using Linux or Mac
+    - It will forward http://localhost:9999 to a Https link
+        - Make sure Labelstudio app is accessible with a https link that will display in the terminal `https://******.eu.ngrok.io`
 ### Hardware (local PC)
 - 8 Gb of Ram
 - 20 Gb free disk space
