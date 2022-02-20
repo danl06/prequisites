@@ -42,7 +42,7 @@
     ```
 4. `Ngrok` will be used to convert local url to https for free, it will be used to share Web-app and Model's Api during labelling and evaluation process
 
-    - You need to create `2 to 3 different accounts` per Team (1 acount per email) from this [LINK](https://ngrok.com/)
+    - You need to create using your email `3 different accounts` per Team (1 acount / email) from this [LINK](https://ngrok.com/)
         - Validate your Ngrok verification by email
         - Download Ngrok depending on your OS, and add it to the home Repo
 
