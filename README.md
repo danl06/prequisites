@@ -20,7 +20,7 @@
     - You may need to activate virtualization in the Bios (if not activated):
         - Check this [link](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968)
 
-    - Make sure Labelstudio app is accessible http://localhost:9999 (check screen below)
+- Make sure Labelstudio app is accessible http://localhost:9999 (check screen below)
 <img src="doc-imgs/ls_welcome.PNG" width=500px/>
 
 2. One Gmail account per user (will be used when working with COLAB)
