@@ -40,6 +40,15 @@
     conda activate labelstudioml
     jupyter notebooks
     ```
+    - If your PC has Nvidia GPU, make sure to install the proper pytorch / cuda version that matches with the one in `Flair` :
+        - Windows:
+        ```
+        pip install torch==1.10.2+cu102 torchvision==0.11.3+cu102 -f https://download.pytorch.org/whl/cu102/torch_stable.html
+        ```
+        - Linux
+        ```
+        pip install torch torchvision
+        ```
 4. `Ngrok` will be used to convert local url to https for free, it will be used to share Web-app and Model's Api during labelling and evaluation process
 
     - You need to create using your email `3 different accounts` per Team (1 acount / email) from this [LINK](https://ngrok.com/)
